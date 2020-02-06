@@ -16,18 +16,26 @@
     <div class="logo"></div>
     <div class="title">FOTO JOMARA</div>
     <div class="subtitle">Entrar</div>
-    <div class="fields">
+    <form class="form">
         <div class="username">
-            <i class="far fa-envelope"></i><input type="username" class="user-input" placeholder="Username">
+            <input type="name" class="user-input" required>
+            <label for="username" class="label-username">
+                <span class="content-username">Username</span>
+            </label>
         </div>
         <div class="password">
-            <i class="fas fa-fingerprint"></i><input type="password" class="user-password" placeholder="Password">
+            
+            <input type="password" class="user-password" required>
+            <label for="password" class="label-password">
+                <span class="content-password">Password</span>
+            </label>
+
         </div>
         <button class="signin-button">LOGIN</button>
         <div class="link">
             <a href="#">Forgot password?</a>
         </div>
-    </div>
+    </form>
 </div>
 
 
